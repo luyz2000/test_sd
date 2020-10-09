@@ -1,0 +1,14 @@
+%header.mb-3
+  / Fixed navbar
+  %nav.navbar.navbar-expand-md.navbar-dark.fixed-top.bg-dark
+    .container
+      = link_to "Aplicacion A", root_path, class: "navbar-brand"
+      %button.navbar-toggler{"aria-controls" => "navbarCollapse", "aria-expanded" => "false", "aria-label" => "Toggle navigation", "data-target" => "#navbarCollapse", "data-toggle" => "collapse", :type => "button"}
+        %span.navbar-toggler-icon
+      #navbarCollapse.collapse.navbar-collapse
+        %ul.navbar-nav.mr-auto
+          %li.nav-item.active= link_to "Inicio", root_path, class: "nav-link"
+        - unless current_page?(root_path)
+          = form_tag root_path, class: "form-inline mt-2 mt-md-0", method: :get do
+            = text_field_tag :s, nil, class: "form-control mr-sm-2", placeholder: "Numero de Guia", type: "text"
+            = submit_tag "Buscar", class: "btn btn-outline-success my-2 my-sm-0"
