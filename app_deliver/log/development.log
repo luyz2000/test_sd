@@ -6426,3 +6426,239 @@ TrackChannel transmitting {"content"=>{"tracking_number"=>"390310026999", "statu
 TrackChannel transmitting {"content"=>{"tracking_number"=>"390309519070", "status"=>"EXCEPTION"}} (via streamed from track_channel)
 [ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390307751260", :status=>"EXCEPTION"}}
 TrackChannel transmitting {"content"=>{"tracking_number"=>"390307751260", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+Started GET "/" for ::1 at 2020-10-09 17:00:56 -0500
+Processing by VisitorController#index as HTML
+  Rendering visitor/index.html.haml within layouts/application
+  Rendered visitor/index.html.haml within layouts/application (59.0ms)
+  Rendered layouts/_header.html.haml (4.0ms)
+  Rendered layouts/_footer.html.haml (1.9ms)
+Completed 200 OK in 371ms (Views: 232.6ms)
+
+
+Started GET "/cable" for ::1 at 2020-10-09 17:00:57 -0500
+Started GET "/cable/" [WebSocket] for ::1 at 2020-10-09 17:00:57 -0500
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+TrackChannel is transmitting the subscription confirmation
+TrackChannel is streaming from track_channel
+Started POST "/async_track_codes" for ::1 at 2020-10-09 17:01:06 -0500
+Processing by VisitorController#procces_json as JS
+  Parameters: {"utf8"=>"✓", "json_file"=>#<ActionDispatch::Http::UploadedFile:0x00007f81edce9408 @tempfile=#<Tempfile:/var/folders/b_/skkp0s5546jbvxyh2659n65w0000gq/T/RackMultipart20201009-17120-1hi6bn8.json>, @original_filename="shipments_data.json", @content_type="application/json", @headers="Content-Disposition: form-data; name=\"json_file\"; filename=\"shipments_data.json\"\r\nContent-Type: application/json\r\n">, "commit"=>"Buscar Todos"}
+  Rendering visitor/procces_json.js.erb
+  Rendered visitor/procces_json.js.erb (0.2ms)
+Completed 200 OK in 219ms (Views: 4.5ms)
+
+
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"449044304137821", :status=>"CREATED"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"449044304137821", "status"=>"CREATED"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"920241085725456", :status=>"ON_TRANSIT"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"920241085725456", "status"=>"ON_TRANSIT"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"149331877648230", :status=>"ON_TRANSIT"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"149331877648230", "status"=>"ON_TRANSIT"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"122816215025810", :status=>"DELIVERED"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"122816215025810", "status"=>"DELIVERED"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"568838414941", :status=>"ON_TRANSIT"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"568838414941", "status"=>"ON_TRANSIT"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"039813852990618", :status=>"ON_TRANSIT"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"039813852990618", "status"=>"ON_TRANSIT"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"231300687629630", :status=>"ON_TRANSIT"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"231300687629630", "status"=>"ON_TRANSIT"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390321684219", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390321684219", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390309404800", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390309404800", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390307806889", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390307806889", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390306330791", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390306330791", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390307752109", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390307752109", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390309693337", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390309693337", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390307014841", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390307014841", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390309372889", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390309372889", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390306285913", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390306285913", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390348753734", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390348753734", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390309425669", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390309425669", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390307418631", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390307418631", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390307322127", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390307322127", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390307751260", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390307751260", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390308970691", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390308970691", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390307443297", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390307443297", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390310258990", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390310258990", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390307343489", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390307343489", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390307241690", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390307241690", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390307542948", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390307542948", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390348744865", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390348744865", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390321827777", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390321827777", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390308556160", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390308556160", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390321575233", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390321575233", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390306808646", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390306808646", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390308119555", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390308119555", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390306784667", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390306784667", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390308588052", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390308588052", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390308344584", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390308344584", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390322171050", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390322171050", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390321247316", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390321247316", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390306174225", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390306174225", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390308299268", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390308299268", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390307610691", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390307610691", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390321229670", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390321229670", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390306171281", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390306171281", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390305991602", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390305991602", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390321639180", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390321639180", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390306182006", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390306182006", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390310048423", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390310048423", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390306054551", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390306054551", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390309341077", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390309341077", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"779757080259", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"779757080259", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390306383729", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390306383729", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390321283233", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390321283233", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390309519070", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390309519070", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390321670543", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390321670543", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390321596301", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390321596301", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390308904462", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390308904462", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390308328327", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390308328327", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390307194234", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390307194234", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390310271747", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390310271747", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390310026999", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390310026999", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390322193503", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390322193503", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390306842284", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390306842284", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390306100749", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390306100749", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390309992214", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390309992214", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390307884140", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390307884140", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390310082852", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390310082852", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390308842600", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390308842600", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390321779576", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390321779576", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390306618571", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390306618571", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390307666076", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390307666076", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"777523666417", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"777523666417", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390321412718", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390321412718", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390306498345", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390306498345", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390306001113", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390306001113", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390309114354", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390309114354", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390306870387", :status=>"EXCEPTION"}}
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390321791669", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390306870387", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390321791669", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390309800298", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390309800298", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390321041908", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390321041908", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390306790950", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390306790950", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390307492620", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390307492620", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390308806624", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390308806624", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390307437968", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390307437968", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"779784773617", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"779784773617", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390321991024", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390321991024", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390306930559", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390306930559", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390321614337", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390321614337", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"779766864720", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"779766864720", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390308384555", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390308384555", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390307764293", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390307764293", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390322126388", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390322126388", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"779928059447", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"779928059447", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390307195296", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390307195296", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390321642602", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390321642602", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390306978347", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390306978347", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390307652242", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390307652242", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390309631122", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390309631122", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390309033655", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390309033655", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390307991800", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390307991800", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390321592269", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390321592269", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390306368556", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390306368556", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390309343460", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390309343460", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390309534872", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390309534872", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390321014948", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390321014948", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390321986621", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390321986621", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390322133714", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390322133714", "status"=>"EXCEPTION"}} (via streamed from track_channel)
+[ActionCable] Broadcasting to track_channel: {:content=>{:tracking_number=>"390307481666", :status=>"EXCEPTION"}}
+TrackChannel transmitting {"content"=>{"tracking_number"=>"390307481666", "status"=>"EXCEPTION"}} (via streamed from track_channel)
