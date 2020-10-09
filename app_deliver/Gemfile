@@ -54,3 +54,4 @@ end
 
 #Alternativa a gema haml para escribir usando haml en lugar de HTML
 gem 'hamlit'
+gem 'fedex'

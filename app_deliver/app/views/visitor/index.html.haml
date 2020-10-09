@@ -1,0 +1,14 @@
+.container.text-center
+  .row.mt-3
+    .col-6
+      = form_tag root_path, class: "form-inline", method: :get, remote: true do
+        = label_tag "Ingresa el numero de guia a buscar", nil
+        .form-group
+          = text_field_tag :track_number, nil, class: "form-control", placeholder: "Numero de Guia", type: "text", required: true
+          = submit_tag "Buscar", class: "btn btn-outline-success my-2"
+    .col-6
+      = form_tag async_track_codes_path, class: "form-inline", multipart: true, remote: true do
+        = label_tag "Ingresa el archivo de guias a buscar", nil, class: "form-inline mb-2"
+        = file_field_tag :json_file, class: "form-control", required: true
+        = submit_tag "Buscar Todos", class: "btn btn-outline-info"
+  .row#track_numbers_container.mt-3
