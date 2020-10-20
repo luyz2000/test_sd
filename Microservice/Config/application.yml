@@ -1,0 +1,6 @@
+development:
+  fedex_key: 'Aqui van tus credenciales'
+  fedex_password: 'Aqui van tus credenciales'
+  fedex_account_number: 'Aqui van tus credenciales'
+  fedex_meter: 'Aqui van tus credenciales'
+  fedex_mode: 'Aqui van tus credenciales'

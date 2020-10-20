@@ -1,11 +1,4 @@
-require 'bundler/inline'
-
-gemfile do
-  source 'https://rubygems.org'
-  gem 'fedex'
-end
-
-class Deliver_fedex
+class DeliverFedex
   TRANSLATE_RESPONSE = {
     'Shipment information sent to FedEx': 'CREATED',
     'At destination sort facility': 'ON_TRANSIT',
@@ -19,7 +12,6 @@ class Deliver_fedex
 
   def track_status(track_number)
     return "" if track_number.empty?
-    require 'fedex'
     pre_connect
     begin
       retries ||= 0
@@ -27,6 +19,7 @@ class Deliver_fedex
       TRANSLATE_RESPONSE[:"#{results.first.status}"]
     rescue => error
       retry if (retries += 1) < 3
+      'EXCEPTION'
       TRANSLATE_RESPONSE[:error]
       #puts "Rescued: #{error.message}"
     end
@@ -34,38 +27,14 @@ class Deliver_fedex
 
   private
   def pre_connect
+    require 'fedex'
     @fedex_connect = Fedex::Shipment.new(
-      key: 'O21wEWKhdDn2SYyb',
-      password: 'db0SYxXWWh0bgRSN7Ikg9Vunz',
-      account_number: '510087780',
-      meter: '119009727',
-      mode: 'test')
+      key: ENV['fedex_key'],
+      password: ENV['fedex_password'],
+      account_number: ENV['fedex_account_number'],
+      meter: ENV['fedex_meter'],
+      mode: ENV['fedex_mode']
+    )
   end
 
-end
-
-class Deliver_dhl
-  def track_status(track_number)
-    return "" if track_number.empty?
-    "En Construccion..."
-  end
-end
-
-class Delivers
-  def self.for(deliver)
-    case deliver
-      when 'fedex'
-        Deliver_fedex.new
-      when 'dhl'
-        Deliver_dhl.new
-      else
-        raise 'Deliver no soportado'
-    end
-  end
-end
-
-class Deliver
-  def self.get(deliver, track_number)
-    Delivers.for(deliver).track_status(track_number)
-  end
 end
