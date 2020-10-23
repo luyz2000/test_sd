@@ -1,0 +1,9 @@
+fedex:
+  Shipment information sent to FedEx: 'CREATED'
+  At destination sort facility: 'ON_TRANSIT'
+  At FedEx destination facility: 'ON_TRANSIT'
+  Departed FedEx location: 'ON_TRANSIT'
+  At Pickup: 'ON_TRANSIT'
+  On FedEx vehicle for delivery: 'ON_TRANSIT'
+  Delivered: 'DELIVERED'
+  error: 'EXCEPTION'
